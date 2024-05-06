@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    padding: 25px;
+    background-color: rgb(52, 166, 170);
+    color: whitesmoke;
+}
+
+main {
+    background-color: rgb(190, 235, 235);
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section .drawing {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section .drawing a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(52, 166, 170);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
